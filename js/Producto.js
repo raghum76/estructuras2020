@@ -3,7 +3,6 @@ class Producto{
         this.codigo=codigo;
         this.nombre=nombre;
         this.costo=costo;
-        this.siguiente=null;
     }
     info(){
         return `Codigo: ${this.codigo} Nombre: ${this.nombre} Costo: ${this.costo} `;
